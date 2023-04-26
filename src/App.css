@@ -1,0 +1,62 @@
+.app-header{
+  width: 100%;
+  height: 250px;
+background-color: blue;
+display: flex;
+justify-content: center;
+align-items: center;
+color: azure;
+}
+
+
+.todo-list{
+  width: 60%;
+  margin: 0 auto;
+ margin-top: 20px;
+ 
+}
+
+.todo-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.1em;
+ border-radius: 8px;
+ box-shadow: -2px 0px 10px 4px rgba(214,167,167,0.75);
+ margin-top: 10px;
+}
+
+.Done{
+background-color:#28d584 ;
+
+}
+
+.undone{
+  background-color:#ff00006e;
+  
+  }
+
+
+.add-task >*{
+  width: 100%;
+  padding: 1.1em;
+  border-radius: 8px;
+  box-shadow: -2px 0px 10px 4px rgba(214,167,167,0.75);
+  display: flex;
+  flex-direction: column;
+}
+
+.add-task button{
+
+  background-color: blue;
+  padding: 1.1em;
+ color: white;
+ border: none;
+}
+
+.inps >*{
+  width: 100%;
+  margin-top: 10px;
+  padding: 1.1em;
+}
